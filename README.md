@@ -43,11 +43,3 @@ Upstream contributions I'm happy about:
 
 - Blog: [adevjoe.com](https://adevjoe.com)
 - Email: [adevjoe@gmail.com](mailto:adevjoe@gmail.com)
-
----
-
-<p align="center">
-  <a href="https://github.com/adevjoe">
-    <img src="https://github-readme-stats.vercel.app/api?username=adevjoe&show_icons=true&theme=transparent" alt="Joe's GitHub stats" />
-  </a>
-</p>
