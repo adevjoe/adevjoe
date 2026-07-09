@@ -1,0 +1,26 @@
+name: Profile summary cards
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-summary-cards
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          # Falls back to the repo's default token; add a SUMMARY_GITHUB_TOKEN
+          # secret (classic PAT, no scopes) if private-repo stats are wanted.
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "master"
+          UTC_OFFSET: 8
+          AUTO_PUSH: true
