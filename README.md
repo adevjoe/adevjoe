@@ -43,3 +43,15 @@ Upstream contributions I'm happy about:
 
 - Blog: [adevjoe.com](https://adevjoe.com)
 - Email: [adevjoe@gmail.com](mailto:adevjoe@gmail.com)
+
+---
+
+<p align="center">
+  <img src="profile-summary-card-output/transparent/0-profile-details.svg" alt="Profile details" width="830" />
+</p>
+<p align="center">
+  <img src="profile-summary-card-output/transparent/3-stats.svg" alt="GitHub stats" width="49%" />
+  <img src="profile-summary-card-output/transparent/1-repos-per-language.svg" alt="Repos per language" width="49%" />
+</p>
+
+<sub>Cards are regenerated daily by a GitHub Action and served from this repo — no third-party image service.</sub>
